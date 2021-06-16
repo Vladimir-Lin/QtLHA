@@ -1,0 +1,32 @@
+INCLUDEPATH += $${PWD}
+
+HEADERS     += $${PWD}/fnmatch.h
+HEADERS     += $${PWD}/getopt_long.h
+HEADERS     += $${PWD}/lha.h
+HEADERS     += $${PWD}/lha_macro.h
+HEADERS     += $${PWD}/lhdir.h
+HEADERS     += $${PWD}/prototypes.h
+
+OTHER_FILES += $${PWD}/lhaappend.c
+OTHER_FILES += $${PWD}/lhabitio.c
+OTHER_FILES += $${PWD}/lhacrcio.c
+OTHER_FILES += $${PWD}/lhadd.c
+OTHER_FILES += $${PWD}/lhadhuf.c
+OTHER_FILES += $${PWD}/lhaextract.c
+OTHER_FILES += $${PWD}/lhafnmatch.c
+OTHER_FILES += $${PWD}/lhagetopt_long.c
+OTHER_FILES += $${PWD}/lhaheader.c
+OTHER_FILES += $${PWD}/lhahuf.c
+OTHER_FILES += $${PWD}/lhaindicator.c
+OTHER_FILES += $${PWD}/lhalarc.c
+OTHER_FILES += $${PWD}/lhamaketbl.c
+OTHER_FILES += $${PWD}/lhamaketree.c
+OTHER_FILES += $${PWD}/lhapatmatch.c
+OTHER_FILES += $${PWD}/lharc.c
+OTHER_FILES += $${PWD}/lhashuf.c
+OTHER_FILES += $${PWD}/lhaslide.c
+OTHER_FILES += $${PWD}/lhautil.c
+OTHER_FILES += $${PWD}/lhavsnprintf.c
+OTHER_FILES += $${PWD}/lhdir.c
+OTHER_FILES += $${PWD}/lhext.c
+OTHER_FILES += $${PWD}/lhlist.c
